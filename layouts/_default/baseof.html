@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noarchive">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" sizes="16x16" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="/css/pico.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>{{ if eq .IsHome true }}Home | {{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+</head>
+<body>
+<header>
+</header>
+<nav>
+    {{ range .Site.Menus.main }}
+    <a href="{{ .URL }}">{{ .Name }}</a>
+    {{ end }}
+</nav>
+<main>
+    {{ block "main" . }}
+    {{ end }}
+</main>
+<footer>
+    <p><small><i>Served by <u>%%host%%</u></i></small></p>
+</footer>
+</body>
+</html>
+

@@ -1,0 +1,29 @@
+{{ define "main" }}
+<section>
+    <ul>
+        {{ $allPosts := slice }}
+    
+        {{ range .Pages }}
+            {{ $allPosts = $allPosts | append (dict "title" .Title "url" .Permalink "date" .Date "type" "internal") }}
+        {{ end }}
+
+        {{ range .Site.Params.external_posts }}
+            {{ $urlParts := split .url "/" }}
+            {{ $fqdn := index $urlParts 2 }}
+            {{ $allPosts = $allPosts | append (dict "title" .title "url" .url "fqdn" $fqdn "date" (time .date) "role" .role "type" "external") }}
+        {{ end }}
+
+        {{ range sort $allPosts "date" "desc" }}
+        <li>
+            {{ if eq .type "external" }}
+            <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+            <span class="subheading"><small>Published on {{ .date.Format "2006-01-02" }}, {{ .fqdn }}, {{ .role }}</small></span>
+            {{ else }}
+            <a href="{{ .url }}">{{ .title }}</a>
+            <span class="subheading"><small>Published on {{ .date.Format "2006-01-02" }}</small></span>
+            {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+</section>
+{{ end }}

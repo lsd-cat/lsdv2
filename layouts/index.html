@@ -1,0 +1,122 @@
+{{ define "main" }}
+<section>
+    <h6>Identity</h6>
+    <ul>{{ range .Site.Params.identity }}
+        <li>{{ .key }}:
+            {{ if .link }}
+            <a href="{{ .link }}" target="_blank">{{ .value }}</a>
+            {{ else }}
+            {{ .value }}
+        {{ end }}</li>
+    {{ end }}</ul>
+</section>
+<section>
+<h6>Latest posts</h6>
+    <ul>
+        {{ $allPosts := slice }}
+        {{ range (where .Site.RegularPages "Section" "posts") }}
+            {{ $allPosts = $allPosts | append (dict "title" .Title "url" .Permalink "date" .Date "type" "internal") }}
+        {{ end }}
+        {{ range .Site.Params.external_posts }}
+            {{ $urlParts := split .url "/" }}
+            {{ $fqdn := index $urlParts 2 }}
+            {{ $allPosts = $allPosts | append (dict "title" .title "url" .url "fqdn" $fqdn "date" (time .date) "role" .role "type" "external") }}
+        {{ end }}
+        {{ range first 5 (sort $allPosts "date" "desc") }}
+        <li>
+            {{ if eq .type "external" }}
+            <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+            <span class="subheading"><small>Published on {{ .date.Format "2006-01-02" }}, {{ .fqdn }}, {{ .role }}</small></span>
+            {{ else }}
+            <a href="{{ .url }}">{{ .title }}</a>
+            <span class="subheading"><small>Published on {{ .date.Format "2006-01-02" }}</small></span>
+            {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+</section>
+<section>
+    <h6>Find me at</h6>
+    {{ $currentYear := now.Format "2006" }}
+    {{ $events := .Site.Params.events }}
+    {{ $years := slice }}
+    
+    <!-- Collect unique years -->
+    {{ range $events }}
+        {{ $year := .date | time.Format "2006" }}
+        {{ if not (in $years $year) }}
+            {{ $years = $years | append $year }}
+        {{ end }}
+    {{ end }}
+    
+    <!-- Sort years in descending order -->
+    {{ $years = $years | sort }}
+    {{ $yearsDesc := slice }}
+    {{ range (seq (sub (len $years) 1) 0) }}
+        {{ $yearsDesc = $yearsDesc | append (index $years .) }}
+    {{ end }}
+    
+    <!-- Render tables grouped by year -->
+    {{ range $index, $year := $yearsDesc }}
+        <details {{ if eq $index 0 }} open{{ end }}>
+            <summary>{{ $year }} Conferences & Events</summary>
+            <table>
+                <thead>
+                <tr>
+                    <th>Event</th>
+                    <th>Location</th>
+                    <th>Year</th>
+                    <th>Date</th>
+                </tr>
+                </thead>
+                <tbody>
+                {{ range $events }}
+                    {{ $eventYear := .date | time.Format "2006" }}
+                    {{ if eq $eventYear $year }}
+                    <tr>
+                        <td><a href="{{ .url }}" target="_blank">{{ .name }}</a></td>
+                        <td>{{ .location }}</td>
+                        <td>{{ .date | time.Format "2006" }}</td>
+                        <td>{{ .date | time.Format "02/01" }}{{ if .end_date }} - {{ .end_date | time.Format "02/01" }}{{ end }}</td>
+                    </tr>
+                    {{ end }}
+                {{ end }}
+                </tbody>
+            </table>
+        </details>
+    {{ end }}
+</section>
+<section>
+<h6>Working on</h6>
+<ul>
+    {{ range .Site.Params.orgs }}
+    <li>
+        <a href="{{ .url }}" target="_blank">{{ .name }}</a> - {{ .description }}
+    </li>
+    {{ end }}
+</ul>
+</section>
+<section>
+    <h6>Contributing to</h6>
+    <ul>
+        {{ range .Site.Params.contributing }}
+        <li>
+            <a href="{{ .url }}" target="_blank">{{ .name }}</a> - {{ .description }}
+        </li>
+        {{ end }}
+    </ul>
+</section>
+<!-- <section>
+    <h6>CVEs</h6>
+    <table>
+        <tbody>
+            {{ range .Site.Params.cves }}
+            <tr>
+                <td><a href="{{ .url }}" target="_blank">{{ .title }}</a></td>
+                <td><code>{{ .cve }}</code></td>
+            </tr>
+            {{ end }}
+        </tbody>
+    </table>
+</section>-->
+{{ end }}

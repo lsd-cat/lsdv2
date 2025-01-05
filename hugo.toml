@@ -1,0 +1,73 @@
+baseURL = 'https://lsd.cat/'
+languageCode = 'en-us'
+title = 'lsd.cat'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 20
+  [[menus.main]]
+    name = 'Photography'
+    pageRef = '/photography'
+    weight = 30
+
+[params]
+identity = [
+  { key = "mail", value = "g@lsd.cat", link = "mailto:g@lsd.cat" },
+  { key = "signal", value = "@giulio.99", link = "https://signal.me/#eu/pQJe47pHLt3tIdGyBO6960HHe5T9AnSu2lk2hnzTtH8feVG9RU9Oko85P0yMDERS" },
+  { key = "git", value = "git.lsd.cat", link = "https://git.lsd.cat/g" },
+  { key = "github", value = "lsd-cat", link = "https://github.com/lsd-cat" },
+  { key = "location", value = "Amsterdam", link = "" }
+]
+
+orgs = [
+  { name = "1337 Services", url = "https://1337.ax/", description = "Security consulting" },
+  { name = "Osservatorio Nessuno OdV", url = "https://osservatorionessuno.org/", description = "Tor relays and privacy advocacy non-profit organization" },
+  { name = "TumpiCON", url = "https://tumpicon.org/", description = "Invite-only security conference" },
+  { name = "Tumpi Networks", url = "https://tumpi.net/", description = "IPv4 leasing company" },
+]
+
+contributing = [
+  { name = "Public Interest Technology Group", url = "https://pitg.gitlab.io/", description = "Group interested in issues of technology, rights, equity and advocacy." },
+  { name = "Scusette", url = "https://scusette.it/", description = "Silly and fun excuses database (Italian)" },
+  { name = "stakkastakka", url = "https://radioblackout.org/shows/stakka-stakka/", description = "Radical radio broadcast (Italian)" },
+  { name = "Antiwar Songs", url = "https://www.antiwarsongs.org/", description = "Multiple languages database and commentary" },
+  { name = "_TO * hacklab", url = "https://autistici.org/underscore", description = "Turin hacklab (Italian)" },
+]
+
+events = [
+  { name = "TumpiCON 2", url = "https://tumpicon.org/2025/", location = "Pinerolo", date = "2025-06-27", end_date = "2025-06-28" },
+  { name = "RWC 2025", url = "https://rwc.iacr.org/2025/", location = "Sofia", date = "2025-03-26", end_date = "2025-03-28" },
+  { name = "38C3", url = "https://events.ccc.de/", location = "Hamburg", date = "2024-12-27", end_date = "2024-12-30" },
+  { name = "DIG Festival 2024", url = "https://dig-awards.org/en/", location = "Modena", date = "2024-09-18", end_date = "2024-09-22" },
+  { name = "IETF 120", url = "https://www.ietf.org/meeting/120/", location = "Vancouver", date = "2024-07-20", end_date = "2024-07-26" },
+  { name = "PET Symposium 2024", url = "https://petsymposium.org/2024/", location = "Bristol", date = "2024-07-15", end_date = "2024-07-20" },
+  { name = "WarCon 2024", url = "https://warcon.pl/", location = "Warsaw", date = "2024-06-14", end_date = "2024-06-15" },
+  { name = "FOSDEM 2024", url = "https://fosdem.org/", location = "Bruxelles", date = "2024-02-03", end_date = "2024-02-04" }
+]
+
+cves = [
+  { title = "Hushline XSS, CSP/OTP Bypass", url = "https://github.com/scidsg/hushline/security/advisories/GHSA-4v8c-r6h2-fhh3", cve = "CVE-2024-{38521, 38522, 38523}" },
+  { title = "SecureDrop Server LPE", url = "https://securedrop.org/news/2_5_1-security-advisory/", cve = "CVE-2022-4563" },
+  { title = "PAX POS Prolin OS RCE", url = "https://git.lsd.cat/g/pax-pwn", cve = "CVE-2020-{28044, 28045, 28046}" },
+  { title = "Nokia/ALU CPE Keygen", url = "https://git.lsd.cat/g/nokia-keygen", cve = "CVE-2020-12694" },
+  { title = "PCS Host Checker RCE", url = "https://git.lsd.cat/g/pulse-host-checker-rce", cve = "CVE-2020-{11580, 11581, 11582}" },
+  { title = "Alcatel OmniVista RCE", url = "https://git.lsd.cat/g/omnivista-rce", cve = "CVE-2019-{20047, 20048, 20049}" }
+]
+
+external_posts = [
+  { title = "The long and winding road to safe browser-based cryptography", url = "https://securedrop.org/news/browser-based-cryptography/", date = 2024-12-19T00:00:00+00:00, role = "Contributor" },
+  { title = "How to BGP from your basement and other tales", url = "https://osservatorionessuno.org/blog/2024/12/how-to-bgp-from-your-basement-and-other-tales/", date = 2024-12-18T00:00:00+00:00, role = "Author" },
+  { title = "Introducing Securedrop Protocol", url = "https://securedrop.org/news/introducing-securedrop-protocol/", date = 2024-05-06T00:00:00+00:00, role = "Co-Author" },
+  { title = "How to research your own cryptography and survive", url = "https://securedrop.org/news/how-to-research-your-own-cryptography-and-survive/", date = 2024-04-03T00:00:00+00:00, role = "Co-Author" },
+  { title = "Anatomy of a whistleblowing system", url = "https://securedrop.org/news/anatomy-of-a-whistleblowing-system/", date = 2024-02-20T00:00:00+00:00, role = "Co-Author" },
+  { title = "CTF Writeup: PlaidCTF 2017 - SHA-4", url = "https://jbz.team/plaidctf2017/SHA4", date = 2017-04-23T00:00:00+00:00, role = "Co-Author" },
+  { title = "CTF Writeup: PlaidCTF 2017 - Echo", url = "https://jbz.team/plaidctf2017/Echo", date = 2017-04-23T00:00:00+00:00, role = "Co-Author" },
+  { title = "CTF Writeup: EkoParty CTF 2017 - silkroad", url = "https://jbz.team/ekopartyctf2017/silkroad", date = 2017-09-18T00:00:00+00:00, role = "Author" },
+  { title = "CTF Writeup: INS'hAck CTF 2018 - Curler", url = "https://jbz.team/inshack2018/Curler", date = 2018-04-09T00:00:00+00:00, role = "Co-Author" }
+]
