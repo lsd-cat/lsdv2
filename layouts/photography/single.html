@@ -1,0 +1,8 @@
+{{ define "main" }}
+{{ range sort site.Data.photos.photos "date" "desc" }}
+<article>
+  <img src="{{ .image_path }}" alt="Photo from {{ .location }}">
+  <span class="subheading"><small>{{ .location }}, {{ (time .date).Format "2006" }}, {{ .type }}, {{ if eq .type "analog" }}{{ .film_type }}{{ end }}.{{ if .note }} <italic>{{ .note }}</italic>{{ end }}</small></span>
+</article>
+{{ end }}
+{{ end }}
