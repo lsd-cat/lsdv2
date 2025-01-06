@@ -1,0 +1,43 @@
+{{- define "rss" -}}
+<rss version="2.0">
+    <channel>
+        <title>{{ .Site.Title }}</title>
+        <link>{{ .Site.BaseURL }}</link>
+        <description>{{ .Site.Params.description }}</description>
+        <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</lastBuildDate>
+
+        {{ $allPosts := slice }}
+
+        <!-- Add internal posts -->
+        {{ range .Pages }}
+            {{ $allPosts = $allPosts | append (dict "title" .Title "url" .Permalink "date" .Date "type" "internal" "content" .Content) }}
+        {{ end }}
+
+        <!-- Add external posts -->
+        {{ range .Site.Params.external_posts }}
+            {{ $urlParts := split .url "/" }}
+            {{ $fqdn := index $urlParts 2 }}
+            {{ $allPosts = $allPosts | append (dict "title" .title "url" .url "fqdn" $fqdn "date" (time .date) "role" .role "type" "external" "content" "") }}
+        {{ end }}
+
+        <!-- Sort posts by date -->
+        {{ range sort $allPosts "date" "desc" }}
+        <item>
+            <title>{{ .title }}</title>
+            <link>{{ .url }}</link>
+            <pubDate>{{ .date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
+            <description>
+                <![CDATA[
+                {{ if eq .type "external" }}
+                External Post from {{ .fqdn }} (Role: {{ .role }})
+                {{ else }}
+                {{ .content | safeHTML }}
+                {{ end }}
+                ]]>
+            </description>
+        </item>
+        {{ end }}
+
+    </channel>
+</rss>
+{{- end -}}

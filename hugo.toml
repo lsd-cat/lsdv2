@@ -16,6 +16,20 @@ title = 'lsd.cat'
     pageRef = '/photography'
     weight = 30
 
+# Prevents rendering of tags/categories
+[Taxonomies]
+
+[outputs]
+  home = ['html']
+  section = ['html']
+  taxonomy = ['html']
+  term = ['html']
+
+[author]
+name = "Giulio B"
+link = "https://lsd.cat"
+email = "g@lsd.cat"
+
 [params]
 identity = [
   { key = "mail", value = "g@lsd.cat", link = "mailto:g@lsd.cat" },
