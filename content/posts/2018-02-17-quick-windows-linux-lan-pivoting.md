@@ -1,5 +1,5 @@
 +++
-date = "2018-11-20T00:00:00+00:00"
+date = "2018-02-17T00:00:00+00:00"
 title = "Quick Windows and Linux LAN pivoting"
 note = "When I wrote this many years ago, I often used it as a quick refernce. It is nothing exceptional, just your usual display of SSH as a server, VPN, proxy, router, etc :)"
 toc = false

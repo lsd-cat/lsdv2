@@ -1,6 +1,7 @@
 baseURL = 'https://lsd.cat/'
 languageCode = 'en-us'
 title = 'lsd.cat'
+minifyOutput = true
 
 [menus]
   [[menus.main]]

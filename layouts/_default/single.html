@@ -1,11 +1,11 @@
 {{ define "main" }}
 <article>
-<h1>{{ .Title }}</h1>
-<p><small>Published <i>{{ .PublishDate | time.Format ":date_medium" }}</i></small></p>
-{{ if .Params.note }}
-<p><strong>Note</strong>: <i>{{ .Params.note | markdownify }}</i></p>
-{{ end }}
-<hr>
-{{ .Content }}
+    <h1>{{ .Title }}</h1>
+    <p><small>Published <i>{{ .PublishDate | time.Format ":date_medium" }}</i></small></p>
+    {{ if .Params.note }}
+    <p><strong>Note</strong>: <i>{{ .Params.note | markdownify }}</i></p>
+    {{ end }}
+    <hr>
+    {{ .Content }}
 </article>
 {{ end }}

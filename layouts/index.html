@@ -41,7 +41,6 @@
     {{ $events := .Site.Params.events }}
     {{ $years := slice }}
     
-    <!-- Collect unique years -->
     {{ range $events }}
         {{ $year := .date | time.Format "2006" }}
         {{ if not (in $years $year) }}
@@ -49,14 +48,12 @@
         {{ end }}
     {{ end }}
     
-    <!-- Sort years in descending order -->
     {{ $years = $years | sort }}
     {{ $yearsDesc := slice }}
     {{ range (seq (sub (len $years) 1) 0) }}
         {{ $yearsDesc = $yearsDesc | append (index $years .) }}
     {{ end }}
     
-    <!-- Render tables grouped by year -->
     {{ range $index, $year := $yearsDesc }}
         <details {{ if eq $index 0 }} open{{ end }}>
             <summary>{{ $year }} Conferences & Events</summary>

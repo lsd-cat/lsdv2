@@ -1,6 +1,7 @@
 +++
 date = "2020-01-10T00:00:00+00:00"
 title = "Nokia-Alcatel FTTH CPE reverse engineering and WPA/admin keygen"
+role = "Co-Author"
 note = "Almost a decade ago a group of unknown Italian researchers broke the algorithms for two of the local main ISP, Telecom and Fastweb. At the time I was a kid and their work was a great source of inspiration: [Pirelli Fastweb](https://wifiresearchers.wordpress.com/2010/03/25/pirelli-fastweb-free-access/), [Alice AGPF](https://wifiresearchers.wordpress.com/2010/06/02/alice-agpf-lalgoritmo/), [Telsey Fastweb](https://wifiresearchers.wordpress.com/2010/09/09/telsey-fastweb-full-disclosure/). There is also some interesting [work on the topic](https://haxx.in/upc_keys.c) by [blasty](https://twitter.com/@bl4sty). Written in collaboration with [ndaprela](https://twitter.com/ndaprela)."
 toc = false
 +++
