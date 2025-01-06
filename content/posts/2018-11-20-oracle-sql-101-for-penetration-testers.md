@@ -1,6 +1,6 @@
 +++
 date = "2018-11-20T00:00:00+00:00"
-title = "Oracle SQL 101 for penetration testers"
+title = "Oracle SQL for penetration testers"
 note = "When I wrote this many years ago, there were already Oracle SQL injection cheatsheets. However, achieving remote code execution was still challenging and there were many other undocumented features. Linked databases provided a huge additional attack surface back then and it felt relevant to document them a bit."
 toc = false
 +++

@@ -2,13 +2,16 @@
 <section>
     <h6>Identity</h6>
     <ul>{{ range .Site.Params.identity }}
-        <li>{{ .key }}:
-            {{ if .link }}
+        <li>
+        {{ .key }}:
+        {{ if .link }}
             <a href="{{ .link }}" target="_blank">{{ .value }}</a>
-            {{ else }}
+        {{ else }}
             {{ .value }}
-        {{ end }}</li>
-    {{ end }}</ul>
+        {{ end }}
+        </li>
+    {{ end }}
+    </ul>
 </section>
 <section>
 <h6>Latest posts</h6>

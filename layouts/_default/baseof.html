@@ -4,18 +4,25 @@
     <meta charset="utf-8">
     <meta name="robots" content="noarchive">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" sizes="16x16" type="image/png" href="icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/imgs/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/imgs/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">    
     <link rel="stylesheet" href="/css/pico.min.css">
     <link rel="stylesheet" href="/css/style.css">
+    {{ if eq .IsHome true }}<link rel="stylesheet" href="/css/header.css">{{ end }}
     <title>{{ if eq .IsHome true }}Home | {{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 </head>
 <body>
 <header>
 </header>
 <nav>
+    <ul>
+    {{ $current := . }}
     {{ range .Site.Menus.main }}
-    <a href="{{ .URL }}">{{ .Name }}</a>
+    <li><a href="{{ .URL }}" {{ if eq .URL $current.RelPermalink }}class="secondary"{{ end }}>{{ .Name }}</a></li>
     {{ end }}
+    </ul>
 </nav>
 <main>
     {{ block "main" . }}

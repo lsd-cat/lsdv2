@@ -1,6 +1,6 @@
 +++
 date = "2021-01-01T00:00:00+00:00"
-title = "An experimental hybrid Capture-the-Flag challenge for an A/D competition"
+title = "A hybrid Capture-the-Flag challenge for an A/D competition"
 note = "The work described here was commissioned and paid for by [Consorzio CINI](https://www.consorzio-cini.it/) to be used as the final challenge for their 2020 [Cyberchallenge](https://cyberchallenge.it) finals. For reasons incomprehensible to the author, I had to keep it confidential until my NDA expired, which happened finally in 2024. The project was developed primarily in September 2020, and the competition was held on October 1, 2020. The post was written in 2021, and finaly published in 2025."
 toc = false
 +++
