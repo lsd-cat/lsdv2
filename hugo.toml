@@ -83,6 +83,7 @@ external_posts = [
   { title = "How to research your own cryptography and survive", url = "https://securedrop.org/news/how-to-research-your-own-cryptography-and-survive/", date = 2024-04-03T00:00:00+00:00, role = "Co-Author" },
   { title = "Anatomy of a whistleblowing system", url = "https://securedrop.org/news/anatomy-of-a-whistleblowing-system/", date = 2024-02-20T00:00:00+00:00, role = "Co-Author" },
   { title = "SecureDrop multiple local privilege escalations", url = "https://securedrop.org/news/2_5_1-security-advisory/", date = 2022-12-12T00:00:00+00:00, role = "Co-Author" },
+  { title = "Google Summer of Code for Qubes-os: automatic port forwarding", url = "https://git.lsd.cat/Qubes/gsoc/src/branch/master/Readme.md", date = 2022-09-15T00:00:00+00:00, role = "Author" },
   { title = "CTF Writeup: PlaidCTF 2017 - SHA-4", url = "https://jbz.team/plaidctf2017/SHA4", date = 2017-04-23T00:00:00+00:00, role = "Co-Author" },
   { title = "CTF Writeup: PlaidCTF 2017 - Echo", url = "https://jbz.team/plaidctf2017/Echo", date = 2017-04-23T00:00:00+00:00, role = "Co-Author" },
   { title = "CTF Writeup: EkoParty CTF 2017 - silkroad", url = "https://jbz.team/ekopartyctf2017/silkroad", date = 2017-09-18T00:00:00+00:00, role = "Author" },
