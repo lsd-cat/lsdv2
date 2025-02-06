@@ -59,7 +59,7 @@
     
     {{ range $index, $year := $yearsDesc }}
         <details {{ if eq $index 0 }} open{{ end }}>
-            <summary>{{ $year }} Conferences & Events</summary>
+            <summary role="button" class="secondary outline">{{ $year }} Conferences & Events</summary>
             <table>
                 <thead>
                 <tr>

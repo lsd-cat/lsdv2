@@ -43,16 +43,17 @@ identity = [
 orgs = [
   { name = "1337 Services", url = "https://1337.ax/", description = "Security consulting" },
   { name = "Osservatorio Nessuno OdV", url = "https://osservatorionessuno.org/", description = "Tor relays and privacy advocacy non-profit organization" },
-  { name = "TumpiCON", url = "https://tumpicon.org/", description = "Invite-only security conference" },
+  { name = "TumpiCon", url = "https://tumpicon.org/", description = "Invite-only security conference" },
   { name = "Tumpi Networks", url = "https://tumpi.net/", description = "IPv4 leasing company" },
 ]
 
 contributing = [
-  { name = "Public Interest Technology Group", url = "https://pitg.gitlab.io/", description = "Group interested in issues of technology, rights, equity and advocacy." },
-  { name = "Scusette", url = "https://scusette.it/", description = "Silly and fun excuses database (Italian)" },
+  { name = "Public Interest Technology Group", url = "https://pitg.gitlab.io/", description = "Group interested in issues of technology, rights, and equity" },
+  { name = "Coding it Forward", url = "https://codingitforward.com/", description = "First volunteer mentor in cyber security" },
   { name = "stakkastakka", url = "https://radioblackout.org/shows/stakka-stakka/", description = "Radical radio broadcast (Italian)" },
   { name = "Antiwar Songs", url = "https://www.antiwarsongs.org/", description = "Multiple languages database and commentary" },
-  { name = "_TO * hacklab", url = "https://autistici.org/underscore", description = "Turin hacklab (Italian)" },
+  { name = "Scusette", url = "https://scusette.it/", description = "Silly and fun excuses database (Italian)" },
+  { name = "_TO * hacklab", url = "https://autistici.org/underscore", description = "Turin hacklab (Italian)" }
 ]
 
 events = [
@@ -81,6 +82,7 @@ external_posts = [
   { title = "Introducing Securedrop Protocol", url = "https://securedrop.org/news/introducing-securedrop-protocol/", date = 2024-05-06T00:00:00+00:00, role = "Co-Author" },
   { title = "How to research your own cryptography and survive", url = "https://securedrop.org/news/how-to-research-your-own-cryptography-and-survive/", date = 2024-04-03T00:00:00+00:00, role = "Co-Author" },
   { title = "Anatomy of a whistleblowing system", url = "https://securedrop.org/news/anatomy-of-a-whistleblowing-system/", date = 2024-02-20T00:00:00+00:00, role = "Co-Author" },
+  { title = "SecureDrop multiple local privilege escalations", url = "https://securedrop.org/news/2_5_1-security-advisory/", date = 2022-12-12T00:00:00+00:00, role = "Co-Author" },
   { title = "CTF Writeup: PlaidCTF 2017 - SHA-4", url = "https://jbz.team/plaidctf2017/SHA4", date = 2017-04-23T00:00:00+00:00, role = "Co-Author" },
   { title = "CTF Writeup: PlaidCTF 2017 - Echo", url = "https://jbz.team/plaidctf2017/Echo", date = 2017-04-23T00:00:00+00:00, role = "Co-Author" },
   { title = "CTF Writeup: EkoParty CTF 2017 - silkroad", url = "https://jbz.team/ekopartyctf2017/silkroad", date = 2017-09-18T00:00:00+00:00, role = "Author" },
