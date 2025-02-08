@@ -1,7 +1,7 @@
 header {
     position: relative;
     background: url("/imgs/bg.jpg") no-repeat center top;
-    background-size: 100% auto;
+    background-size: cover;
     background-attachment: fixed;
     background-position: top center;
     background-repeat: no-repeat;
