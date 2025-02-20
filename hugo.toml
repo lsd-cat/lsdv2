@@ -48,7 +48,7 @@ orgs = [
 ]
 
 contributing = [
-  { name = "Public Interest Technology Group", url = "https://pitg.gitlab.io/", description = "Group interested in issues of technology, rights, and equity" },
+  { name = "Public Interest Technology Group", url = "https://pitg.network/", description = "Group interested in issues of technology, rights, and equity" },
   { name = "Coding it Forward", url = "https://codingitforward.com/", description = "First volunteer mentor in cyber security" },
   { name = "stakkastakka", url = "https://radioblackout.org/shows/stakka-stakka/", description = "Radical radio broadcast (Italian)" },
   { name = "Antiwar Songs", url = "https://www.antiwarsongs.org/", description = "Multiple languages database and commentary" },
