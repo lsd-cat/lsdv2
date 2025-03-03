@@ -57,7 +57,8 @@ contributing = [
 ]
 
 events = [
-  { name = "TumpiCON 2", url = "https://tumpicon.org/2025/", location = "Pinerolo", date = "2025-06-27", end_date = "2025-06-28" },
+  { name = "TumpiCON 2025", url = "https://tumpicon.org/2025/", location = "Pinerolo", date = "2025-06-27", end_date = "2025-06-28" },
+  { name = "SGKM 2025", url = "https://sgkm2025.fhgr.ch/", location = "Chur", date = "2025-05-21", end_date = "2025-05-23" },
   { name = "RWC 2025", url = "https://rwc.iacr.org/2025/", location = "Sofia", date = "2025-03-26", end_date = "2025-03-28" },
   { name = "38C3", url = "https://events.ccc.de/", location = "Hamburg", date = "2024-12-27", end_date = "2024-12-30" },
   { name = "DIG Festival 2024", url = "https://dig-awards.org/en/", location = "Modena", date = "2024-09-18", end_date = "2024-09-22" },
