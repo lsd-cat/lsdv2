@@ -57,19 +57,24 @@ contributing = [
 ]
 
 events = [
-  { name = "TumpiCON 2025", url = "https://tumpicon.org/2025/", location = "Pinerolo", date = "2025-06-27", end_date = "2025-06-28" },
+  { name = "TumpiCon 2025", url = "https://tumpicon.org/2025/", location = "Pinerolo", date = "2025-06-27", end_date = "2025-06-28" },
   { name = "Hackmeeting 0x1C", url = "https://hackmeeting.org/hackit25/", location = "Cagliari", date = "2025-05-30", end_date = "2025-06-01" },
   { name = "SGKM 2025", url = "https://sgkm2025.fhgr.ch/", location = "Chur", date = "2025-05-21", end_date = "2025-05-23" },
   { name = "RWC 2025", url = "https://rwc.iacr.org/2025/", location = "Sofia", date = "2025-03-26", end_date = "2025-03-28" },
   { name = "38C3", url = "https://events.ccc.de/", location = "Hamburg", date = "2024-12-27", end_date = "2024-12-30" },
   { name = "DIG Festival 2024", url = "https://dig-awards.org/en/", location = "Modena", date = "2024-09-18", end_date = "2024-09-22" },
-  { name = "IETF 120", url = "https://www.ietf.org/meeting/120/", location = "Vancouver", date = "2024-07-20", end_date = "2024-07-26" },
+  { name = "IETF 120", url = "https://datatracker.ietf.org/meeting/120/proceedings", location = "Vancouver", date = "2024-07-20", end_date = "2024-07-26" },
   { name = "PET Symposium 2024", url = "https://petsymposium.org/2024/", location = "Bristol", date = "2024-07-15", end_date = "2024-07-20" },
   { name = "WarCon 2024", url = "https://warcon.pl/", location = "Warsaw", date = "2024-06-14", end_date = "2024-06-15" },
-  { name = "FOSDEM 2024", url = "https://fosdem.org/", location = "Bruxelles", date = "2024-02-03", end_date = "2024-02-04" }
+  { name = "FOSDEM 2024", url = "https://archive.fosdem.org/2024/", location = "Bruxelles", date = "2024-02-03", end_date = "2024-02-04" },
+  { name = "IETF 118", url = "https://datatracker.ietf.org/meeting/118/proceedings", location = "Prague", date = "2023-11-04", end_date = "2023-11-10" },
+  { name = "AlligatorCon 2023", url = "https://www.alligatorcon.eu/index-2023.html", location = "Budapest", date = "2023-08-25", end_date = "2023-08-26" },
+  { name = "TumpiCon 2023", url = "https://tumpicon.org/past/2023/", location = "Pinerolo", date = "2023-06-16", end_date = "2023-06-17" },
+  { name = "Nullcon Berlin 2023", url = "https://berlin2023.nullcon.net/berlin-2023/", location = "Berlin", date = "2023-03-09", end_date = "2023-03-10" }
 ]
 
 cves = [
+  { title = "SecureDrop Client (Server) RCE", url = "https://github.com/freedomofpress/securedrop-client/security/advisories/GHSA-6c3p-chq6-q3j2", cve = "CVE-2025-24888" },
   { title = "Hushline XSS, CSP/OTP Bypass", url = "https://github.com/scidsg/hushline/security/advisories/GHSA-4v8c-r6h2-fhh3", cve = "CVE-2024-{38521, 38522, 38523}" },
   { title = "SecureDrop Server LPE", url = "https://securedrop.org/news/2_5_1-security-advisory/", cve = "CVE-2022-4563" },
   { title = "PAX POS Prolin OS RCE", url = "https://git.lsd.cat/g/pax-pwn", cve = "CVE-2020-{28044, 28045, 28046}" },
