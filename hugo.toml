@@ -66,7 +66,7 @@ events = [
   { name = "IETF 120", url = "https://datatracker.ietf.org/meeting/120/proceedings", location = "Vancouver", date = "2024-07-20", end_date = "2024-07-26" },
   { name = "PET Symposium 2024", url = "https://petsymposium.org/2024/", location = "Bristol", date = "2024-07-15", end_date = "2024-07-20" },
   { name = "WarCon 2024", url = "https://warcon.pl/", location = "Warsaw", date = "2024-06-14", end_date = "2024-06-15" },
-  { name = "IJF 2024", url = "https://www.journalismfestival.com/programme/2024", location = "Perugia", date = "2023-04-17", end_date = "2023-04-21" },
+  { name = "IJF 2024", url = "https://www.journalismfestival.com/programme/2024", location = "Perugia", date = "2024-04-17", end_date = "2024-04-21" },
   { name = "FOSDEM 2024", url = "https://archive.fosdem.org/2024/", location = "Bruxelles", date = "2024-02-03", end_date = "2024-02-04" },
   { name = "IETF 118", url = "https://datatracker.ietf.org/meeting/118/proceedings", location = "Prague", date = "2023-11-04", end_date = "2023-11-10" },
   { name = "DIG Festival 2023", url = "https://dig-awards.org/dig-festival-2023-dont-give-up/", location = "Modena", date = "2023-09-21", end_date = "2023-09-24" },
