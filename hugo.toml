@@ -68,6 +68,7 @@ events = [
   { name = "WarCon 2024", url = "https://warcon.pl/", location = "Warsaw", date = "2024-06-14", end_date = "2024-06-15" },
   { name = "IJF 2024", url = "https://www.journalismfestival.com/programme/2024", location = "Perugia", date = "2024-04-17", end_date = "2024-04-21" },
   { name = "FOSDEM 2024", url = "https://archive.fosdem.org/2024/", location = "Bruxelles", date = "2024-02-03", end_date = "2024-02-04" },
+  { name = "37C3", url = "https://events.ccc.de/congress/2023/infos/index.html", location = "Hamburg", date = "2023-12-27", end_date = "2023-12-30" },
   { name = "IETF 118", url = "https://datatracker.ietf.org/meeting/118/proceedings", location = "Prague", date = "2023-11-04", end_date = "2023-11-10" },
   { name = "DIG Festival 2023", url = "https://dig-awards.org/dig-festival-2023-dont-give-up/", location = "Modena", date = "2023-09-21", end_date = "2023-09-24" },
   { name = "AlligatorCon 2023", url = "https://www.alligatorcon.eu/index-2023.html", location = "Budapest", date = "2023-08-25", end_date = "2023-08-26" },
