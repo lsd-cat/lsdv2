@@ -88,8 +88,8 @@ cves = [
 ]
 
 external_posts = [
-  { title = "A deep dive into Cellebrite: Android support as of February 2025", url = "https://osservatorionessuno.org/blog/2025/03/a-deep-dive-into-cellebrite-android-support-as-of-february-2025/", date = 2025-03-16T00:00:00+00:00, role = "Co-Author" },
-  { title = "A deep dive into Cellebrite: how it came to be", url = "https://osservatorionessuno.org/blog/2025/03/a-deep-dive-into-cellebrite-how-it-came-to-be/", date = 2025-03-16T00:00:00+00:00, role = "Co-Author" },
+  { title = "A deep dive into Cellebrite: Android support as of February 2025", url = "https://osservatorionessuno.org/blog/2025/03/a-deep-dive-into-cellebrite-android-support-as-of-february-2025/", date = 2025-03-16T00:00:00+00:00, role = "Author" },
+  { title = "A deep dive into Cellebrite: how it came to be", url = "https://osservatorionessuno.org/blog/2025/03/a-deep-dive-into-cellebrite-how-it-came-to-be/", date = 2025-03-16T00:00:00+00:00, role = "Author" },
   { title = "The long and winding road to safe browser-based cryptography", url = "https://securedrop.org/news/browser-based-cryptography/", date = 2024-12-19T00:00:00+00:00, role = "Co-Author" },
   { title = "How to BGP from your basement and other tales", url = "https://osservatorionessuno.org/blog/2024/12/how-to-bgp-from-your-basement-and-other-tales/", date = 2024-12-18T00:00:00+00:00, role = "Author" },
   { title = "Introducing Securedrop Protocol", url = "https://securedrop.org/news/introducing-securedrop-protocol/", date = 2024-05-06T00:00:00+00:00, role = "Co-Author" },
