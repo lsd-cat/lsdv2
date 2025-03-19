@@ -29,10 +29,10 @@
         <li>
             {{ if eq .type "external" }}
             <a href="{{ .url }}" target="_blank">{{ .title }}</a>
-            <span class="subheading"><small>Published on {{ .date.Format "2006-01-02" }}, {{ .fqdn }}, {{ .role }}</small></span>
+            <span class="subheading"><small>On {{ .date.Format "2006-01-02" }}, {{ .fqdn }}, {{ .role }}</small></span>
             {{ else }}
             <a href="{{ .url }}">{{ .title }}</a>
-            <span class="subheading"><small>Published on {{ .date.Format "2006-01-02" }}</small></span>
+            <span class="subheading"><small>On {{ .date.Format "2006-01-02" }}</small></span>
             {{ end }}
         </li>
         {{ end }}
