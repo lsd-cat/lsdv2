@@ -57,7 +57,8 @@ contributing = [
 ]
 
 events = [
-  { name = "TumpiCon 2025", url = "https://tumpicon.org/2025/", location = "Pinerolo", date = "2025-06-27", end_date = "2025-06-28" },
+  { name = "DIG Festival 2025", url = "https://dig-awards.org/en/", location = "Modena", date = "2025-09-24", end_date = "2025-09-28" },
+  { name = "TumpiCon 2025", url = "https://tumpicon.org/", location = "Pinerolo", date = "2025-06-27", end_date = "2025-06-28" },
   { name = "Hackmeeting 0x1C", url = "https://hackmeeting.org/hackit25/", location = "Cagliari", date = "2025-05-30", end_date = "2025-06-01" },
   { name = "SGKM 2025", url = "https://sgkm2025.fhgr.ch/", location = "Chur", date = "2025-05-21", end_date = "2025-05-23" },
   { name = "RWC 2025", url = "https://rwc.iacr.org/2025/", location = "Sofia", date = "2025-03-26", end_date = "2025-03-28" },
