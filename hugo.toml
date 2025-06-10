@@ -58,6 +58,7 @@ contributing = [
 
 events = [
   { name = "DIG Festival 2025", url = "https://dig-awards.org/en/", location = "Modena", date = "2025-09-24", end_date = "2025-09-28" },
+  { name = "Global Gathering 2025", url = "https://www.digitalrights.community/blog/2025-global-gathering-application", location = "Estoril", date = "2025-09-08", end_date = "2025-09-10" },
   { name = "TumpiCon 2025", url = "https://tumpicon.org/", location = "Pinerolo", date = "2025-06-27", end_date = "2025-06-28" },
   { name = "Hackmeeting 0x1C", url = "https://hackmeeting.org/hackit25/", location = "Cagliari", date = "2025-05-30", end_date = "2025-06-01" },
   { name = "SGKM 2025", url = "https://sgkm2025.fhgr.ch/", location = "Chur", date = "2025-05-21", end_date = "2025-05-23" },
