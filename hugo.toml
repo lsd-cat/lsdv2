@@ -49,7 +49,6 @@ orgs = [
 
 contributing = [
   { name = "Public Interest Technology Group", url = "https://pitg.network/", description = "Group interested in issues of technology, rights, and equity" },
-  { name = "Coding it Forward", url = "https://codingitforward.com/", description = "First volunteer mentor in cyber security" },
   { name = "stakkastakka", url = "https://radioblackout.org/shows/stakka-stakka/", description = "Radical radio broadcast (Italian)" },
   { name = "Antiwar Songs", url = "https://www.antiwarsongs.org/", description = "Multiple languages database and commentary" },
   { name = "Scusette", url = "https://scusette.it/", description = "Silly and fun excuses database (Italian)" },
@@ -90,6 +89,7 @@ cves = [
 ]
 
 external_posts = [
+  { title = "Italy’s intelligence oversight committee (COPASIR) report on Graphite spyware raises more questions than it answers", url = "https://osservatorionessuno.org/blog/2025/06/italys-intelligence-oversight-committee-copasir-report-on-graphite-spyware-raises-more-questions-than-it-answers/", date = 2025-06-07T00:00:00+00:00, role = "Author"},
   { title = "ePrint: WEBCAT dissertation", url = "https://eprint.iacr.org/2025/797", date = 2025-05-05T00:00:00+00:00, role = "Author"},
   { title = "Patela: A basement full of amnesic servers", url = "https://osservatorionessuno.org/blog/2025/05/patela-a-basement-full-of-amnesic-servers/", date = 2025-05-05T00:00:00+00:00, role = "Co-Author"},
   { title = "Introducing WEBCAT: Web-based Code Assurance and Transparency", url = "https://securedrop.org/news/introducing-webcat-web-based-code-assurance-and-transparency/", date = 2025-03-19T00:00:00+00:00, role = "Co-Author"},
