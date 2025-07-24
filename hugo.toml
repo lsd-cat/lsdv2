@@ -56,6 +56,8 @@ contributing = [
 ]
 
 events = [
+  { name = "Transparency.dev Summit 2025", url = "https://transparency.dev/summit2025/", location = "Gothenburg", date = "2025-10-20", end_date = "2025-10-22" },
+  { name = "Tor Community Gathering 2025", url = "https://torproject.org/", location = "Copenhagen", date = "2025-10-03", end_date = "2025-10-05" },
   { name = "DIG Festival 2025", url = "https://dig-awards.org/en/", location = "Modena", date = "2025-09-24", end_date = "2025-09-28" },
   { name = "Global Gathering 2025", url = "https://www.digitalrights.community/blog/2025-global-gathering-application", location = "Estoril", date = "2025-09-08", end_date = "2025-09-10" },
   { name = "TumpiCon 2025", url = "https://tumpicon.org/", location = "Pinerolo", date = "2025-06-27", end_date = "2025-06-28" },
