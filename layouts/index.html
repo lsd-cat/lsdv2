@@ -65,7 +65,6 @@
                 <tr>
                     <th>Event</th>
                     <th>Location</th>
-                    <th>Year</th>
                     <th>Date</th>
                 </tr>
                 </thead>
@@ -76,7 +75,6 @@
                     <tr>
                         <td><a href="{{ .url }}" target="_blank">{{ .name }}</a></td>
                         <td>{{ .location }}</td>
-                        <td>{{ .date | time.Format "2006" }}</td>
                         <td>{{ .date | time.Format "02/01" }}{{ if .end_date }} - {{ .end_date | time.Format "02/01" }}{{ end }}</td>
                     </tr>
                     {{ end }}
