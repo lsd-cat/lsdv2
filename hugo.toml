@@ -42,9 +42,10 @@ identity = [
 
 orgs = [
   { name = "1337 Services", url = "https://1337.ax/", description = "Security consulting" },
-  { name = "Osservatorio Nessuno OdV", url = "https://osservatorionessuno.org/", description = "Tor relays and privacy advocacy non-profit organization" },
+  { name = "Osservatorio Nessuno OdV", url = "https://osservatorionessuno.org/", description = "Non-profit organization focused on privacy, anti-surveillance, and support for activists" },
   { name = "TumpiCon", url = "https://tumpicon.org/", description = "Invite-only security conference" },
   { name = "Tumpi Networks", url = "https://tumpi.net/", description = "IPv4 leasing company" },
+  { name = "Freedom of the Press Foundation", url = "https://freedom.press", description = "Non-profit organization dedicated to press freedom advocacy and secure communications technology" }
 ]
 
 contributing = [
