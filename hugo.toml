@@ -57,6 +57,7 @@ contributing = [
 ]
 
 events = [
+  { name = "39C3", url = "https://events.ccc.de/", location = "Hamburg", date = "2025-12-27", end_date = "2025-12-30" },
   { name = "Transparency.dev Summit 2025", url = "https://transparency.dev/summit2025/", location = "Gothenburg", date = "2025-10-20", end_date = "2025-10-22" },
   { name = "Tor Community Gathering 2025", url = "https://torproject.org/", location = "Copenhagen", date = "2025-10-03", end_date = "2025-10-05" },
   { name = "DIG Festival 2025", url = "https://dig-awards.org/en/", location = "Modena", date = "2025-09-24", end_date = "2025-09-28" },
@@ -65,7 +66,7 @@ events = [
   { name = "Hackmeeting 0x1C", url = "https://hackmeeting.org/hackit25/", location = "Cagliari", date = "2025-05-30", end_date = "2025-06-01" },
   { name = "SGKM 2025", url = "https://sgkm2025.fhgr.ch/", location = "Chur", date = "2025-05-21", end_date = "2025-05-23" },
   { name = "RWC 2025", url = "https://rwc.iacr.org/2025/", location = "Sofia", date = "2025-03-26", end_date = "2025-03-28" },
-  { name = "38C3", url = "https://events.ccc.de/", location = "Hamburg", date = "2024-12-27", end_date = "2024-12-30" },
+  { name = "38C3", url = "https://events.ccc.de/congress/2024/infos/index.html", location = "Hamburg", date = "2024-12-27", end_date = "2024-12-30" },
   { name = "DIG Festival 2024", url = "https://dig-awards.org/en/", location = "Modena", date = "2024-09-18", end_date = "2024-09-22" },
   { name = "IETF 120", url = "https://datatracker.ietf.org/meeting/120/proceedings", location = "Vancouver", date = "2024-07-20", end_date = "2024-07-26" },
   { name = "PET Symposium 2024", url = "https://petsymposium.org/2024/", location = "Bristol", date = "2024-07-15", end_date = "2024-07-20" },
