@@ -35,7 +35,6 @@ email = "g@lsd.cat"
 identity = [
   { key = "mail", value = "g@lsd.cat", link = "mailto:g@lsd.cat" },
   { key = "signal", value = "@giulio.99", link = "https://signal.me/#eu/pQJe47pHLt3tIdGyBO6960HHe5T9AnSu2lk2hnzTtH8feVG9RU9Oko85P0yMDERS" },
-  { key = "git", value = "git.lsd.cat", link = "https://git.lsd.cat/g" },
   { key = "github", value = "lsd-cat", link = "https://github.com/lsd-cat" },
   { key = "location", value = "Amsterdam", link = "" }
 ]
@@ -58,6 +57,7 @@ contributing = [
 
 events = [
   { name = "39C3", url = "https://events.ccc.de/", location = "Hamburg", date = "2025-12-27", end_date = "2025-12-30" },
+  { name = "IETF 124", url = "https://www.ietf.org/meeting/124/", location = "Montreal", date = "2025-11-01", end_date = "2025-11-07" },
   { name = "Transparency.dev Summit 2025", url = "https://transparency.dev/summit2025/", location = "Gothenburg", date = "2025-10-20", end_date = "2025-10-22" },
   { name = "Tor Community Gathering 2025", url = "https://torproject.org/", location = "Copenhagen", date = "2025-10-03", end_date = "2025-10-05" },
   { name = "DIG Festival 2025", url = "https://dig-awards.org/en/", location = "Modena", date = "2025-09-24", end_date = "2025-09-28" },
