@@ -3,7 +3,7 @@ header {
     background: url("/imgs/bg.jpg") no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
-    background-position: top center;
+    background-position: center calc(40% - 20vh);
     background-repeat: no-repeat;
     height: 60vh;
     text-align: center;
