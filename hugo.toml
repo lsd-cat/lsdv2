@@ -41,9 +41,9 @@ identity = [
 
 orgs = [
   { name = "1337 Services", url = "https://1337.ax/", description = "Security consulting" },
-  { name = "Osservatorio Nessuno OdV", url = "https://osservatorionessuno.org/", description = "Nonprofit organization focused on privacy, anti-surveillance, and support for activists" },
-  { name = "ProtioNet APS", url = "https://procio.network", description ="Nonprofit organization researching and building open internet infrastructure and services" },
-  { name = "TumpiCon", url = "https://tumpicon.org/", description = "Invite-only security conference" },
+  { name = "Osservatorio Nessuno OdV", url = "https://osservatorionessuno.org/", description = "Non-profit organization focused on privacy, anti-surveillance, and support for activists" },
+  { name = "ProtioNet APS", url = "https://procio.network", description ="Non-profit organization researching and building open internet infrastructure and services" },
+  { name = "TumpiCon", url = "https://tumpicon.org/", description = "Non-commercial invite-only security conference" },
   { name = "TumpiNet", url = "https://tumpi.net/", description = "IPv4 leasing company" },
   { name = "Freedom of the Press Foundation", url = "https://freedom.press", description = "Non-profit organization dedicated to press freedom advocacy and secure communications technology" }
 ]
