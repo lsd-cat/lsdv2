@@ -95,6 +95,7 @@ cves = [
 
 external_posts = [
   { title = "WEBCAT: Towards auditable web application runtimes", url = "https://securedrop.org/news/webcat-towards-auditable-web-application-runtimes/", date = 2025-12-18T00:00:00+00:00, role = "Author"},
+  { title = "Building a Browser-Native Verification Stack for Tinfoil", url = "https://tinfoil.sh/blog/2025-12-18-browser-native-verification", date = 2025-12-18T00:00:00+00:00, role = "Co-Author"},
   { title = "Patela v2: From certificates to hardware", url = "https://osservatorionessuno.org/blog/2025/12/patela-v2-from-certificates-to-hardware/", date = 2025-12-13T00:00:00+00:00, role = "Co-Author"},
   { title = "Bugbane: Simplifying consensual Android forensics", url = "https://osservatorionessuno.org/blog/2025/09/bugbane-simplifying-consensual-android-forensics/", date = 2025-09-05T00:00:00+00:00, role = "Co-Author"},
   { title = "Italy’s intelligence oversight committee (COPASIR) report on Graphite spyware raises more questions than it answers", url = "https://osservatorionessuno.org/blog/2025/06/italys-intelligence-oversight-committee-copasir-report-on-graphite-spyware-raises-more-questions-than-it-answers/", date = 2025-06-07T00:00:00+00:00, role = "Author"},
