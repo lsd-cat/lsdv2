@@ -67,7 +67,7 @@ jobs:
             --config "webcat/webcat.config.json" \
             --directory public \
             --output "webcat/manifest_unsigned.json" \
-            --exclude public/imgs/bg.jpg
+            --exclude /imgs/bg.jpg
     
       - name: Inspect WEBCAT manifest
         run: cat webcat/manifest_unsigned.json
