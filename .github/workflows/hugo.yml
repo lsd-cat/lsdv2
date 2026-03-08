@@ -49,12 +49,10 @@ jobs:
 
       - name: Build with Hugo
         env:
-          # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo \
-            --minify 
+          hugo --minify
 
       - name: Populate version in webcat.config.json
         run: sed -i "s|\${VERSION_PLACEHOLDER}|${{ env.VERSION }}|g" webcat/webcat.config.json
@@ -67,10 +65,13 @@ jobs:
           webcat manifest generate \
             --type sigstore \
             --config "webcat/webcat.config.json" \
-            --directory ./public \
+            --directory public \
             --output "webcat/manifest_unsigned.json" \
-            --exclude ./public/imgs/bg.jpg
+            --exclude public/imgs/bg.jpg
     
+      - name: Inspect WEBCAT manifest
+        run: cat webcat/manifest_unsigned.json
+
       - name: Get GitHub OIDC token
         id: oidc
         run: |
