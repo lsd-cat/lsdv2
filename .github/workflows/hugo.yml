@@ -68,7 +68,7 @@ jobs:
             --type sigstore \
             --config "webcat/webcat.config.json" \
             --directory ./public \
-            --output "webcat/manifest_unsigned.json"
+            --output "webcat/manifest_unsigned.json" \
             --exclude ./public/imgs/bg.jpg
     
       - name: Get GitHub OIDC token
