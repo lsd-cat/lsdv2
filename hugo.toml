@@ -98,6 +98,7 @@ cves = [
 ]
 
 external_posts = [
+  { title ="Demystifying phone unlocking tools: A technical overview", url="https://osservatorionessuno.org/blog/2026/05/demystifying-phone-unlocking-tools-a-technical-overview/", date = 2026-05-07T00:00:00+00:00, role = "Author"},
   { title = "Morpheus: A new Spyware linked to IPS Intelligence", url = "https://osservatorionessuno.org/blog/2026/04/morpheus-a-new-spyware-linked-to-ips-intelligence/", date = 2026-04-23T00:00:00+00:00, role = "Co-Author"},
   { title = "Demystifying phone unlocking tools", url = "https://pitg.network/news/techdive/2026/04/17/phone-unlocking.html", date = 2026-04-17T00:00:00+00:00, role = "Author"},
   { title = "Italian spyware maker SIO still developing and distributing Spyrtacus", url = "https://osservatorionessuno.org/blog/2026/04/italian-spyware-maker-sio-still-developing-and-distributing-spyrtacus/", date = 2026-04-09T00:00:00+00:00, role = "Co-Author"},
