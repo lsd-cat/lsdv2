@@ -58,8 +58,8 @@ contributing = [
 ]
 
 events = [
-  { name =  "Global Gathering 2026", url = "https://wiki.digitalrights.community/index.php?title=Global_Gathering_2026", location = "Estoril", date = "2026-09-04", end_date = "2026-09-06" },
   { name = "DIG Festival 2026", url = "https://dig-awards.org/en/", location = "Modena", date = "2026-09-23", end_date = "2026-09-27" },
+  { name = "Global Gathering 2026", url = "https://wiki.digitalrights.community/index.php?title=Global_Gathering_2026", location = "Estoril", date = "2026-09-04", end_date = "2026-09-06" },
   { name = "WarCon 2026", url = "https://warcon.pl/", location = "Warsaw", date = "2026-05-29", end_date = "2026-05-30" },
   { name = "RWC 2026", url = "https://rwc.iacr.org/", location = "Taipei", date = "2026-03-09", end_date = "2026-03-11" },
   { name = "FOSDEM 2026", url = "https://fosdem.org/", location = "Brussels", date = "2026-01-31", end_date = "2026-02-01" },
