@@ -60,6 +60,7 @@ contributing = [
 events = [
   { name = "40C3", url = "https://events.ccc.de/", location = "Hamburg", date = "2026-12-27", end_date = "2026-12-30" },
   { name = "ACM CCS 2026", url = "https://www.sigsac.org/ccs/CCS2026/", location = "The Hague", date = "2026-11-15", end_date = "2026-11-19" },
+  { name = "Privacy Camp 2026", url = "https://privacycamp.eu/", location = "Brussels", date = "2026-10-13", end_endate = "2026-10-13" }, 
   { name = "DIG Festival 2026", url = "https://dig-awards.org/en/", location = "Modena", date = "2026-09-23", end_date = "2026-09-27" },
   { name = "Global Gathering 2026", url = "https://wiki.digitalrights.community/index.php?title=Global_Gathering_2026", location = "Estoril", date = "2026-09-04", end_date = "2026-09-06" },
   { name = "WarCon 2026", url = "https://warcon.pl/", location = "Warsaw", date = "2026-05-29", end_date = "2026-05-30" },
