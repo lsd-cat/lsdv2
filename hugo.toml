@@ -40,13 +40,14 @@ identity = [
 ]
 
 orgs = [
+  { name = "Osservatorio Nessuno OdV", url = "https://osservatorionessuno.org/", description = "Non-profit for advocacy, anti-surveillance and activist support" },
+  { name = "ProcioNet APS", url = "https://procio.network", description = "Non-profit researching and building open internet infrastructure" },
   { name = "1337 Services", url = "https://1337.ax/", description = "Security consulting" },
-  { name = "Osservatorio Nessuno OdV", url = "https://osservatorionessuno.org/", description = "Non-profit organization focused on privacy, anti-surveillance, and support for activists" },
-  { name = "ProcioNet APS", url = "https://procio.network", description ="Non-profit organization researching and building open internet infrastructure and services" },
-  { name = "TumpiCon", url = "https://tumpicon.org/", description = "Non-commercial invite-only security conference" },
   { name = "TumpiNet", url = "https://tumpi.net/", description = "IPv4 leasing company" },
-  { name = "Freedom of the Press Foundation", url = "https://freedom.press", description = "Non-profit organization dedicated to press freedom advocacy and secure communications technology" },
-  { name = "Tinfoil", url = "https://tinfoil.sh", description = "Confidential computing infrastructure" }
+  { name = "TumpiCon", url = "https://tumpicon.org/", description = "Non-commercial invite-only security conference" },
+  { name = "Tinfoil", url = "https://tinfoil.sh", description = "Confidential computing infrastructure" },
+  { name = "Freedom of the Press Foundation", url = "https://freedom.press", description = "Non-profit for press freedom and secure communications technology" },
+  { name = "WEBCAT", url = "https://webcat.tech", description = "Browser-based web application verification" }
 ]
 
 contributing = [
