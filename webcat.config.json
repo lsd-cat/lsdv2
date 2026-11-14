@@ -1,0 +1,13 @@
+{
+  "source": "https://github.com/lsd-cat/lsdv2",
+  "artifact": "https://github.com/lsd-cat/lsdv2/releases/download/${version}/site-${version}.tar.gz",
+  "directory": "public",
+  "origin": "https://lsd.cat",
+  "default_csp": "default-src 'none'; style-src 'self'; img-src 'self'",
+  "default_index": "index.html",
+  "fallbacks": [
+    "/404.html"
+  ],
+  "wasm": [],
+  "extra_csp": {}
+}

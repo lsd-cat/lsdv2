@@ -1,8 +1,0 @@
-{		
-  "app": "https://github.com/tinfoilsh/verification-center",
-  "version": "${VERSION_PLACEHOLDER}",
-  "default_csp": "default-src 'none'; style-src 'self'; img-src 'self'",
-  "default_index": "index.html",
-  "default_fallback": "/404.html",
-  "extra_csp": {}
-}

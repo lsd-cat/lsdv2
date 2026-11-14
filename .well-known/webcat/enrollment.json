@@ -1,22 +1,9 @@
 {
   "type": "sigstore",
+  "enrollment_schema": 1,
   "trusted_root": {
     "mediaType": "application/vnd.dev.sigstore.trustedroot+json;version=0.1",
     "tlogs": [
-      {
-        "baseUrl": "https://rekor.sigstore.dev",
-        "hashAlgorithm": "SHA2_256",
-        "publicKey": {
-          "rawBytes": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE2G2Y+2tabdTV5BcGiBIx0a9fAFwrkBbmLSGtks4L3qX6yYY0zufBnhC8Ur/iy55GhWP/9A/bY2LhC30M9+RYtw==",
-          "keyDetails": "PKIX_ECDSA_P256_SHA_256",
-          "validFor": {
-            "start": "2021-01-12T11:53:27Z"
-          }
-        },
-        "logId": {
-          "keyId": "wNI9atQGlz+VWfO6LRygH4QUfY/8W4RFwiT5i5WRgB0="
-        }
-      },
       {
         "baseUrl": "https://log2025-1.rekor.sigstore.dev",
         "hashAlgorithm": "SHA2_256",
@@ -128,11 +115,10 @@
   },
   "claims": {
     "1.3.6.1.4.1.57264.1.8": "https://token.actions.githubusercontent.com",
-    "1.3.6.1.4.1.57264.1.1": "https://token.actions.githubusercontent.com",
-    "1.3.6.1.4.1.57264.1.9": "https://github.com/lsd-cat/lsdv2/.github/workflows/hugo.yml@refs/heads/main",
+    "1.3.6.1.4.1.57264.1.9": "^https://github.com/lsd-cat/lsdv2/.github/workflows/webcat-release.yml@refs/tags/",
     "1.3.6.1.4.1.57264.1.11": "github-hosted",
     "1.3.6.1.4.1.57264.1.12": "https://github.com/lsd-cat/lsdv2",
-    "1.3.6.1.4.1.57264.1.14": "refs/heads/main"
+    "1.3.6.1.4.1.57264.1.14": "^refs/tags/"
   },
   "max_age": 15638400
 }
