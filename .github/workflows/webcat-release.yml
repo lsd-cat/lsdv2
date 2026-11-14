@@ -29,7 +29,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm install -g github:freedomofpress/webcat-cli#schema-1
+      - run: |                                                # webcat-cli from its schema-1 branch, built from source
+          git clone --depth 1 -b schema-1 https://github.com/freedomofpress/webcat-cli "$RUNNER_TEMP/webcat-cli"
+          cd "$RUNNER_TEMP/webcat-cli" && npm ci && npm run build && npm install -g .
       # imgs/bg.jpg is rotated hourly on the servers, so it cannot be in the manifest
       - run: webcat release --type sigstore --exclude imgs/bg.jpg
       - run: gh release create "$GITHUB_REF_NAME" site-*.tar.gz --generate-notes
